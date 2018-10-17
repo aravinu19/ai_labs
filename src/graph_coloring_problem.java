@@ -86,7 +86,7 @@ public class graph_coloring_problem {
 
     private static void Display(){
 
-        System.out.println("Colors : ");
+        System.out.print("\nColors : ");
         for (int index = 0; index < vector; index++){
             System.out.print(colors[index] + " ");
         }
